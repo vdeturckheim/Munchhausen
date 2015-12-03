@@ -1,0 +1,36 @@
+{
+  "name": "munchhausen",
+  "version": "0.0.0",
+  "description": "Real time lazy API mocking",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdeturckheim/Munchhausen.git"
+  },
+  "keywords": [
+    "test",
+    "mock",
+    "hapi",
+    "api",
+    "lies"
+  ],
+  "author": "Vladimir de Turckheim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vdeturckheim/Munchhausen/issues"
+  },
+  "homepage": "https://github.com/vdeturckheim/Munchhausen#readme",
+  "dependencies": {
+    "boom": "^3.0.0",
+    "glue": "^2.4.0",
+    "hapi": "^11.1.2",
+    "hoek": "^3.0.4"
+  },
+  "devDependencies": {
+    "code": "^2.0.1",
+    "lab": "^7.3.0"
+  }
+}
